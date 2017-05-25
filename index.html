@@ -42,37 +42,39 @@
 
 <body>
 
-<div class="container">
-	<div class="jumbotron text-center">
-		<!-- <h1>Hello World!</h1> -->
-		<p>A developer should use a jumbotron to attract attention on a webpage to users.</p>
-		<a class="btn btn-warning">Blue</a>
-		<a class="btn btn-warning">Blue</a>
+<div class="navbar navbar-default navbar-static-top">
+	<div class="container">
+		<a href="#" class="navbar-brand">Scripted Summer Academy</a>
 
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">   <!--When I enter the navbar-toggle class, the button doesn't appear and when I remove class, it 																										appears as a tiny button on the page-->
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="myNavBar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="https://docs.google.com/document/d/138PguW6QJWCgSG62qkKuM6wpR_e-Q_D02ynwkzpMS9I/edit?usp=sharing">Scripted Summer Academy</a></li>
+				<li><a href="http://bit.ly/ScriptEdRef">Scripted Curriculum</a></li>
+				<li><a href="https://v4-alpha.getbootstrap.com/examples/">Bootstrap Examples</a></li>
+				<li><a href="https://scripted.org/">Scripted Homepage</a></li>
+				<li><a href="#">Bootstrap Help</a></li>
+
+			</ul>
+		</div>
 	</div>
 </div>
 
 
+<div class="container">
+	<div class="jumbotron text-center">
+		<!-- <h1>Hello World!</h1> -->
+		<p>A developer should use a jumbotron to attract attention on a webpage to users.</p>
+		<a class="btn btn-warning">Close</a>
+		<a class="btn btn-warning">Open</a>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	</div>
+</div>
 
 
 <!-- Task #3 **GRIDLAYOUT**: 
@@ -101,31 +103,26 @@ Create a responsive bootstrap grid system that contains three blocks of content.
 	**Make sure the 'container' and 'row' div tags from steps 1 and 2 close after all other text..
 -->
 
+<div class="container">
+	<div class="row">
+		<div class="col-sm-4">
+			<h3><a href="http://docs.google.com/document/d/138PguW6QJWCgSG62qkKuM6wpR_e-Q_D02ynwkzpMS9I/edit?usp=sharing">Summer Academy Info</a></h3>
+			<p>Welcome to the ScriptEd Summer Academy Website.</p>
+			<a href="https://docs.google.com/document/d/138PguW6QJWCgSG62qkKuM6wpR_e-Q_D02ynwkzpMS9I/edit?usp=sharing" class="btn btn-default">More Info</a>
+		</div>
+		<div class="col-sm-4">
+			<h3><a href="http://docs.google.com/document/d/138PguW6QJWCgSG62qkKuM6wpR_e-Q_D02ynwkzpMS9I/edit?usp=sharing">Summer Academy Info</a></h3>
+			<p>Welcome to the ScriptEd Summer Academy Website.</p>
+			<a href="https://docs.google.com/document/d/138PguW6QJWCgSG62qkKuM6wpR_e-Q_D02ynwkzpMS9I/edit?usp=sharing" class="btn btn-default">More Info</a>
+		</div>
+		<div class="col-sm-4">
+			<h3><a href="http://docs.google.com/document/d/138PguW6QJWCgSG62qkKuM6wpR_e-Q_D02ynwkzpMS9I/edit?usp=sharing">Summer Academy Info</a></h3>
+			<p>Welcome to the ScriptEd Summer Academy Website.</p>
+			<a href="https://docs.google.com/document/d/138PguW6QJWCgSG62qkKuM6wpR_e-Q_D02ynwkzpMS9I/edit?usp=sharing" class="btn btn-default">More Info</a>
+		</div>
+	</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
 
 
 
@@ -137,27 +134,11 @@ Watch PART OF tutorial first: 0m to 8m of https://www.youtube.com/watch?v=qpWlaO
 Open a div classed 'navbar navbar-default navbar-static-top'. Inside of that div Open another div classed 'container'. Lastly, add an anchor tag within the inner div. This anchor tag will have a class of 'navbar-brand' and the text visible to the user will read 'ScritEd Summer Academy'. Close your anchor tag in this section but the two div tags will be the last tags for the nav bar section (after the 'collapsible navbar' section.)
 -->
 
-
-
-
-
-
 		<!-- Create a dropdown button
 		button with a type of 'button', classed as 'navbar-toggle', data-toggle='collapse', and data-target='#exampleSSA'. The data-target will point to the collapsible navbar below.
 		 -->
 
-
-
-
-
-
-
 		 	<!-- Add three span tags classed 'icon-bar' to make lines in the button and close the button tag after. -->
-
-
-
-
-
 
 		<!-- Collapsible Navbar
 		Open a div classed 'collapse navbar-collapse' and an id of 'exampleSSA'. Within this div add an unordered list classed 'nav navbar-nav navbar-right'. Four of the five list items inside of the unordered list should also be anchor tags that take us to the sites listed below. CREATE appropriate names for each tag by reading them over first.
@@ -171,26 +152,9 @@ Open a div classed 'navbar navbar-default navbar-static-top'. Inside of that div
 
 		The fifth list item will not be a link so do not make it an anchor tag. The list item text will read 'Bootstrap Help'.
 
-		
 		 -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- Now you can close the 'navbar navbar-default navbar-static-top' and 'container' div tags from this section -->
-
 
 
 <!-- Last step!! Move your navegation bar code to the top of the page, directly after the starting body tag.
