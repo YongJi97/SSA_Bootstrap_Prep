@@ -42,17 +42,15 @@
 
 <body>
 
-<div class="navbar navbar-default navbar-static-top">
+<nav class="navbar navbar-default navbar-static-top">
 	<div class="container">
 		<a href="#" class="navbar-brand">Scripted Summer Academy</a>
 
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">   <!--When I enter the navbar-toggle class, the button doesn't appear and when I remove class, it 																										appears as a tiny button on the page-->
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".myNavBar">
+			&#9776;
 		</button>
 
-		<div class="collapse navbar-collapse" id="myNavBar">
+		<div class="collapse navbar-collapse myNavBar">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="https://docs.google.com/document/d/138PguW6QJWCgSG62qkKuM6wpR_e-Q_D02ynwkzpMS9I/edit?usp=sharing">Scripted Summer Academy</a></li>
 				<li><a href="http://bit.ly/ScriptEdRef">Scripted Curriculum</a></li>
@@ -63,7 +61,7 @@
 			</ul>
 		</div>
 	</div>
-</div>
+</nav>
 
 
 <div class="container">
@@ -256,10 +254,38 @@ Watch tutorial: https://www.youtube.com/watch?v=R0nkkXkrby0&t=306s
 <!-- Task #7 **MODALS**: 
 Watch tutorial: https://www.youtube.com/watch?v=7YJUFaZMS8Q
 -->
-
+<div class="container text-center">
 <!-- Link an element to your modal by providing that element with an href of '#contact' and a data-toggle of 'modal'. -->
-
+	<a class="btn btn-info" href="#contact" data-toggle="modal">Open Modal</a>
 <!-- Open a div classed 'modal fade', an id of 'contact', and a role of 'dialog' -->
+	
+	<div class="modal fade" id="contact" role="dialog">
+
+		<div class="modal-dialog">
+
+			<div class="modal-content">
+
+				<div class="modal-header">
+
+					<h4>Contact SSA</h4>
+				</div>
+
+				<div class="modal-body">
+
+					<p>ScriptEd Summer Academy teaches high school students how to code using Bootstrap. The 80 students develop responsive websites for mock clients during their 2.5 weeks in the program. If you would like more information please contact chinnell@scripted.org</p>
+
+				</div>
+
+				<div class="modal-footer">
+
+				<button class="btn btn-info" data-dismiss="modal">Close</button>
+				<a class="btn btn-primary" href="http://scripted.org">Go to our website!</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 
 	<!-- Inside the 'modal fade' div open another div classed 'modal-dialog'. -->
